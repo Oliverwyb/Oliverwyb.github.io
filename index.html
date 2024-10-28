@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="lock" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body onload="Restart()">
+    <img src="Images/" id="background_gif">
+    <div class="loader">
+        <div class="loader__element"></div>
+    </div>
+    
+    <!-- Header -->
+    <div class="d-none d-md-block">
+        <h1 id="header_1_1">124 Days of loving you</h1>
+    </div>
+    <div class="d-block d-md-none">
+        <h1 id="header_1_2">124 Days of loving you</h1>
+    </div>
+
+    <!-- Input box for name and password -->
+     <div class="text-center">
+        <div class="row">
+            <div class="col-md-4 col-3"></div>
+            <div class="form-group col-md-4 col-6">
+                <div class="input-group">
+                    <input type="text" class="form-control btn input" id="name" placeholder="Name" required> 
+                </div>
+            </div><br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 col-3"></div>
+            <div class="form-group col-md-4 col-6">
+                <div class="input-group">
+                    <input type="password" class="form-control btn input" id="Password1" placeholder="Birthday" required>
+                </div>
+            </div><br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group">
+                <div class="d-flex justify-content-center">
+                    <button id="submit_button" type="submit" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="Checker()">Start ></button>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+
+     <div class="container_item_1">
+        <button class="btn btn-danger day About" id="About" onclick="Display_2(124)">About us</button>
+        <button class="btn btn-danger day day_1" id="day-1" onclick="Display(0)">Day 01</button>
+        <button class="btn btn-danger day day_2" id="day-2" onclick="Display(1)">Day 02</button>
+        <button class="btn btn-danger day day_3" id="day-3" onclick="Display(2)">Day 03</button>
+        <button class="btn btn-danger day day_4" id="day-4" onclick="Display(3)">Day 04</button>
+        <button class="btn btn-danger day day_5" id="day-5" onclick="Display(4)">Day 05</button>
+        <button class="btn btn-danger day day_6" id="day-6" onclick="Display(5)">Day 06</button>
+        <button class="btn btn-danger day day_7" id="day-7" onclick="Display(6)">Day 07</button>
+        <button class="btn btn-danger day day_8" id="day-8" onclick="Display(7)">Day 08</button>
+        <button class="btn btn-danger day day_9" id="day-9" onclick="Display(8)">Day 09</button>
+        <button class="btn btn-danger day day_10" id="day-10" onclick="Display(9)">Day 10</button>
+        <button class="btn btn-danger day day_11" id="day-11" onclick="Display(10)">Day 11</button>
+        <button class="btn btn-danger day day_12" id="day-12" onclick="Display(11)">Day 12</button>
+        <button class="btn btn-danger day day_13" id="day-13" onclick="Display(12)">Day 13</button>
+        <button class="btn btn-danger day day_14" id="day-14" onclick="Display(13)">Day 14</button>
+        <button class="btn btn-danger day day_15" id="day-15" onclick="Display(14)">Day 15</button>
+        <button class="btn btn-danger day day_16" id="day-16" onclick="Display(15)">Day 16</button>
+        <button class="btn btn-danger day day_17" id="day-17" onclick="Display(16)">Day 17</button>
+        <button class="btn btn-danger day day_18" id="day-18" onclick="Display(17)">Day 18</button>
+        <button class="btn btn-danger day day_19" id="day-19" onclick="Display(18)">Day 19</button>
+        <button class="btn btn-danger day day_20" id="day-20" onclick="Display(19)">Day 20</button>
+        <button class="btn btn-danger day day_21" id="day-21" onclick="Display(20)">Day 21</button>
+        <button class="btn btn-danger day day_22" id="day-22" onclick="Display(21)">Day 22</button>
+        <button class="btn btn-danger day day_23" id="day-23" onclick="Display(22)">Day 23</button>
+        <button class="btn btn-danger day day_24" id="day-24" onclick="Display(23)">Day 24</button>
+        <button class="btn btn-danger day day_25" id="day-25" onclick="Display(24)">Day 25</button>
+        <button class="btn btn-danger day day_26" id="day-26" onclick="Display(25)">Day 26</button>
+        <button class="btn btn-danger day day_27" id="day-27" onclick="Display(26)">Day 27</button>
+        <button class="btn btn-danger day day_28" id="day-28" onclick="Display(27)">Day 28</button>
+        <button class="btn btn-danger day day_29" id="day-29" onclick="Display(28)">Day 29</button>
+        <button class="btn btn-danger day day_30" id="day-30" onclick="Display(29)">Day 30</button>
+        <button class="btn btn-danger day day_31" id="day-31" onclick="Display(30)">Day 31</button>
+        <button class="btn btn-danger day day_32" id="day-32" onclick="Display(31)">Day 32</button>
+        <button class="btn btn-danger day day_33" id="day-33" onclick="Display(32)">Day 33</button>
+        <button class="btn btn-danger day day_34" id="day-34" onclick="Display(33)">Day 34</button>
+        <button class="btn btn-danger day day_35" id="day-35" onclick="Display(34)">Day 35</button>
+        <button class="btn btn-danger day day_36" id="day-36" onclick="Display(35)">Day 36</button>
+        <button class="btn btn-danger day day_37" id="day-37" onclick="Display(36)">Day 37</button>
+        <button class="btn btn-danger day day_38" id="day-38" onclick="Display(37)">Day 38</button>
+        <button class="btn btn-danger day day_39" id="day-39" onclick="Display(38)">Day 39</button>
+        <button class="btn btn-danger day day_40" id="day-40" onclick="Display(39)">Day 40</button>
+        <button class="btn btn-danger day day_41" id="day-41" onclick="Display(40)">Day 41</button>
+        <button class="btn btn-danger day day_42" id="day-42" onclick="Display(41)">Day 42</button>
+        <button class="btn btn-danger day day_43" id="day-43" onclick="Display(42)">Day 43</button>
+        <button class="btn btn-danger day day_44" id="day-44" onclick="Display(43)">Day 44</button>
+        <button class="btn btn-danger day day_45" id="day-45" onclick="Display(44)">Day 45</button>
+        <button class="btn btn-danger day day_46" id="day-46" onclick="Display(45)">Day 46</button>
+        <button class="btn btn-danger day day_47" id="day-47" onclick="Display(46)">Day 47</button>
+        <button class="btn btn-danger day day_48" id="day-48" onclick="Display(47)">Day 48</button>
+        <button class="btn btn-danger day day_49" id="day-49" onclick="Display(48)">Day 49</button>
+        <button class="btn btn-danger day day_50" id="day-50" onclick="Display(49)">Day 50</button>
+        <button class="btn btn-danger day day_51" id="day-51" onclick="Display(50)">Day 51</button>
+        <button class="btn btn-danger day day_52" id="day-52" onclick="Display(51)">Day 52</button>
+        <button class="btn btn-danger day day_53" id="day-53" onclick="Display(52)">Day 53</button>
+        <button class="btn btn-danger day day_54" id="day-54" onclick="Display(53)">Day 54</button>
+        <button class="btn btn-danger day day_55" id="day-55" onclick="Display(54)">Day 55</button>
+        <button class="btn btn-danger day day_56" id="day-56" onclick="Display(55)">Day 56</button>
+        <button class="btn btn-danger day day_57" id="day-57" onclick="Display(56)">Day 57</button>
+        <button class="btn btn-danger day day_58" id="day-58" onclick="Display(57)">Day 58</button>
+        <button class="btn btn-danger day day_59" id="day-59" onclick="Display(58)">Day 59</button>
+        <button class="btn btn-danger day day_60" id="day-60" onclick="Display(59)">Day 60</button>
+        <button class="btn btn-danger day day_61" id="day-61" onclick="Display(60)">Day 61</button>
+        <button class="btn btn-danger day day_62" id="day-62" onclick="Display(61)">Day 62</button>
+        <button class="btn btn-danger day day_63" id="day-63" onclick="Display(62)">Day 63</button>
+        <button class="btn btn-danger day day_64" id="day-64" onclick="Display(63)">Day 64</button>
+        <button class="btn btn-danger day day_65" id="day-65" onclick="Display(64)">Day 65</button>
+        <button class="btn btn-danger day day_66" id="day-66" onclick="Display(65)">Day 66</button>
+        <button class="btn btn-danger day day_67" id="day-67" onclick="Display(66)">Day 67</button>
+        <button class="btn btn-danger day day_68" id="day-68" onclick="Display(67)">Day 68</button>
+        <button class="btn btn-danger day day_69" id="day-69" onclick="Display(68)">Day 69</button>
+        <button class="btn btn-danger day day_70" id="day-70" onclick="Display(69)">Day 70</button>
+        <button class="btn btn-danger day day_71" id="day-71" onclick="Display(70)">Day 71</button>
+        <button class="btn btn-danger day day_72" id="day-72" onclick="Display(71)">Day 72</button>
+        <button class="btn btn-danger day day_73" id="day-73" onclick="Display(72)">Day 73</button>
+        <button class="btn btn-danger day day_74" id="day-74" onclick="Display(73)">Day 74</button>
+        <button class="btn btn-danger day day_75" id="day-75" onclick="Display(74)">Day 75</button>
+        <button class="btn btn-danger day day_76" id="day-76" onclick="Display(75)">Day 76</button>
+        <button class="btn btn-danger day day_77" id="day-77" onclick="Display(76)">Day 77</button>
+        <button class="btn btn-danger day day_78" id="day-78" onclick="Display(77)">Day 78</button>
+        <button class="btn btn-danger day day_79" id="day-79" onclick="Display(78)">Day 79</button>
+        <button class="btn btn-danger day day_80" id="day-80" onclick="Display(79)">Day 80</button>
+        <button class="btn btn-danger day day_81" id="day-81" onclick="Display(80)">Day 81</button>
+        <button class="btn btn-danger day day_82" id="day-82" onclick="Display(81)">Day 82</button>
+        <button class="btn btn-danger day day_83" id="day-83" onclick="Display(82)">Day 83</button>
+        <button class="btn btn-danger day day_84" id="day-84" onclick="Display(83)">Day 84</button>
+        <button class="btn btn-danger day day_85" id="day-85" onclick="Display(84)">Day 85</button>
+        <button class="btn btn-danger day day_86" id="day-86" onclick="Display(85)">Day 86</button>
+        <button class="btn btn-danger day day_87" id="day-87" onclick="Display(86)">Day 87</button>
+        <button class="btn btn-danger day day_88" id="day-88" onclick="Display(87)">Day 88</button>
+        <button class="btn btn-danger day day_89" id="day-89" onclick="Display(88)">Day 89</button>
+        <button class="btn btn-danger day day_90" id="day-90" onclick="Display(89)">Day 90</button>
+        <button class="btn btn-danger day day_91" id="day-91" onclick="Display(90)">Day 91</button>
+        <button class="btn btn-danger day day_92" id="day-92" onclick="Display(91)">Day 92</button>
+        <button class="btn btn-danger day day_93" id="day-93" onclick="Display(92)">Day 93</button>
+        <button class="btn btn-danger day day_94" id="day-94" onclick="Display(93)">Day 94</button>
+        <button class="btn btn-danger day day_95" id="day-95" onclick="Display(94)">Day 95</button>
+        <button class="btn btn-danger day day_96" id="day-96" onclick="Display(95)">Day 96</button>
+        <button class="btn btn-danger day day_97" id="day-97" onclick="Display(96)">Day 97</button>
+        <button class="btn btn-danger day day_98" id="day-98" onclick="Display(97)">Day 98</button>
+        <button class="btn btn-danger day day_99" id="day-99" onclick="Display(98)">Day 99</button>
+        <button class="btn btn-danger day day_100" id="day-100" onclick="Display(99)">Day 100</button>
+        <button class="btn btn-danger day day_101" id="day-101" onclick="Display(100)">Day 101</button>
+        <button class="btn btn-danger day day_102" id="day-102" onclick="Display(101)">Day 102</button>
+        <button class="btn btn-danger day day_103" id="day-103" onclick="Display(102)">Day 103</button>
+        <button class="btn btn-danger day day_104" id="day-104" onclick="Display(103)">Day 104</button>
+        <button class="btn btn-danger day day_105" id="day-105" onclick="Display(104)">Day 105</button>
+        <button class="btn btn-danger day day_106" id="day-106" onclick="Display(105)">Day 106</button>
+        <button class="btn btn-danger day day_107" id="day-107" onclick="Display(106)">Day 107</button>
+        <button class="btn btn-danger day day_108" id="day-108" onclick="Display(107)">Day 108</button>
+        <button class="btn btn-danger day day_109" id="day-109" onclick="Display(108)">Day 109</button>
+        <button class="btn btn-danger day day_110" id="day-110" onclick="Display(109)">Day 110</button>
+        <button class="btn btn-danger day day_111" id="day-111" onclick="Display(110)">Day 111</button>
+        <button class="btn btn-danger day day_112" id="day-112" onclick="Display(111)">Day 112</button>
+        <button class="btn btn-danger day day_113" id="day-113" onclick="Display(112)">Day 113</button>
+        <button class="btn btn-danger day day_114" id="day-114" onclick="Display(113)">Day 114</button>
+        <button class="btn btn-danger day day_115" id="day-115" onclick="Display(114)">Day 115</button>
+        <button class="btn btn-danger day day_116" id="day-116" onclick="Display(115)">Day 116</button>
+        <button class="btn btn-danger day day_117" id="day-117" onclick="Display(116)">Day 117</button>
+        <button class="btn btn-danger day day_118" id="day-118" onclick="Display(117)">Day 118</button>
+        <button class="btn btn-danger day day_119" id="day-119" onclick="Display(118)">Day 119</button>
+        <button class="btn btn-danger day day_120" id="day-120" onclick="Display(119)">Day 120</button>
+        <button class="btn btn-danger day day_121" id="day-121" onclick="Display(120)">Day 121</button>
+        <button class="btn btn-danger day day_122" id="day-122" onclick="Display(121)">Day 122</button>
+        <button class="btn btn-danger day day_123" id="day-123" onclick="Display(122)">Day 123</button>
+        <button class="btn btn-danger day day_124" id="day-124" onclick="Display_2(123)">Happy Birthday!!!</button>
+     </div>
+
+     <div id="Book_display" class="Book_display Book_Display_1">
+        <div class="screen"></div>
+        <div id="Block"></div>
+        <img src="Images/Heart.png" id="Backaground_image" class="Backaground_image">
+        <div class="Info img-fluid" id="box">
+            <div class="Header text-center font-weight-bold" id="Header"></div>
+            <br>
+            <div class="text text-center" id="Text"></div>
+            <br><br>
+            <div class="form-group">
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-success" id="Close" onclick="Close()">Exit</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
