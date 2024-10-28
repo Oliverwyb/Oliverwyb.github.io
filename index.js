@@ -145,8 +145,8 @@ function Display(dayNumber) {
 }
 function Display_2(dayNumber) {
     img.src = "Images/Background.png"
-    if (dayNumber == 125){
-        document.getElementById("Header").innerHTML="Happy Birthday!"
+    if (dayNumber == 124){
+        document.getElementById("Header").innerHTML="About Us!"
     }
     else{
         document.getElementById("Header").innerHTML="Day " + (dayNumber+1)
