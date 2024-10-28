@@ -145,6 +145,7 @@ function Display(dayNumber) {
 }
 function Display_2(dayNumber) {
     img.src = "Images/Background.png"
+    console.log(typeof dayNumber)
     if (dayNumber >= 124){
         document.getElementById("Header").innerHTML="About Us!"
     }
