@@ -145,7 +145,12 @@ function Display(dayNumber) {
 }
 function Display_2(dayNumber) {
     img.src = "Images/Background.png"
+    if (dayNumber == 125){
+        document.getElementById("Header").innerHTML="Happy Birthday!"
+    }
+    else{
         document.getElementById("Header").innerHTML="Day " + (dayNumber+1)
+    }
         document.getElementById("Text").innerHTML= loveNotes[dayNumber]
         Book.classList.add("Book_Display_2")
         Book.classList.remove("Book_Display_1")
